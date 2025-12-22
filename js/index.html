@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Brankas Rahasia ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .brankas {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            background-color: #ff5e78;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff3f5f;
+        }
+        .pesan {
+            margin-top: 20px;
+            font-size: 16px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="brankas">
+    <h2>🔐 Brankas Cinta</h2>
+    <p>Masukkan password rahasia</p>
+
+    <input type="password" id="password" placeholder="Password...">
+    <br>
+    <button onclick="bukaBrankas()">Buka Brankas</button>
+
+    <div class="pesan" id="pesan">
+        <h3>🎉 Selamat Ulang Tahun Sayang ❤️</h3>
+        <p>
+            Semoga kamu selalu sehat, bahagia,  
+            dan semua impianmu tercapai.  
+            Aku bersyukur punya kamu 🤍  
+            I love you forever 💕
+        </p>
+    </div>
+</div>
+
+<script>
+    function bukaBrankas() {
+        // Password rahasia (ubah sesuai keinginan)
+        const passwordBenar = "selamatulangtahun";
+
+        const input = document.getElementById("password").value;
+        const pesan = document.getElementById("pesan");
+
+        if (input === passwordBenar) {
+            pesan.style.display = "block";
+            alert("Brankas terbuka! ❤️");
+        } else {
+            alert("Password salah! 🔒");
+        }
+    }
+</script>
+
+</body>
+</html>
