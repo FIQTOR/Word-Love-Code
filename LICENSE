@@ -2,12 +2,6 @@ MIT License
 
 Copyright (c) 2026 FIQTOR
 
-This project is derived from Awesome-Love-Code
-(https://github.com/sun0225SUN/Awesome-Love-Code),
-Copyright (c) 2022 小孙同学, released under the MIT License.
-The particle engine in js/index.js is based on Shape Shifter
-(https://github.com/kennethcachia/Shape-Shifter) by Kenneth Cachia.
-
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
