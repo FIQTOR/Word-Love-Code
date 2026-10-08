@@ -67,6 +67,16 @@ This project is built on top of open-source work — huge thanks to the original
 - **[Awesome-Love-Code](https://github.com/sun0225SUN/Awesome-Love-Code)** by [@sun0225SUN](https://github.com/sun0225SUN) — MIT licensed. This repo is derived from it.
 - **[Shape Shifter](https://github.com/kennethcachia/Shape-Shifter)** by [Kenneth Cachia](http://www.kennethcachia.com) — the particle engine behind the heart (`js/index.js`).
 
+## ☕ Support this project
+
+If this little page helped you say something you couldn't put into words, you can buy me a coffee 💗
+
+<div align="center">
+
+<a href="https://www.buymeacoffee.com/fiqtor" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200" /></a>
+
+</div>
+
 ## 📄 License
 
 Released under the [MIT License](LICENSE), preserving the original upstream MIT license from Awesome-Love-Code.
